@@ -20,7 +20,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.addtoappandroid.Api.FlutterAppApi
 import com.example.addtoappandroid.Api.VoidResult
 import com.example.addtoappandroid.ui.theme.AddToAppAndroidTheme
 import io.flutter.embedding.android.FlutterActivity
@@ -72,9 +71,9 @@ fun Greeting(name: String, activity: ComponentActivity) {
     ) {
         Button(
             onClick = {
-                val token  = Api.Token()
-                token.locale = "ru"
-                Api.ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(token, object : VoidResult {
+                val hostInfo  = Api.HostInfo()
+                hostInfo.locale = "ru"
+                Api.ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(hostInfo, object : VoidResult {
                     override fun success() {
                     }
 
