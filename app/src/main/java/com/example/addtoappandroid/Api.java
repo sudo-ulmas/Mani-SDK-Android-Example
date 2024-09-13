@@ -153,14 +153,14 @@ public class Api {
 
   /** Generated class from Pigeon that represents data sent in messages. */
   public static final class HostInfo {
-    private @Nullable String appName;
+    private @Nullable String paymentSystemId;
 
-    public @Nullable String getAppName() {
-      return appName;
+    public @Nullable String getPaymentSystemId() {
+      return paymentSystemId;
     }
 
-    public void setAppName(@Nullable String setterArg) {
-      this.appName = setterArg;
+    public void setPaymentSystemId(@Nullable String setterArg) {
+      this.paymentSystemId = setterArg;
     }
 
     private @Nullable String locale;
@@ -178,21 +178,21 @@ public class Api {
       if (this == o) { return true; }
       if (o == null || getClass() != o.getClass()) { return false; }
       HostInfo that = (HostInfo) o;
-      return Objects.equals(appName, that.appName) && Objects.equals(locale, that.locale);
+      return Objects.equals(paymentSystemId, that.paymentSystemId) && Objects.equals(locale, that.locale);
     }
 
     @Override
     public int hashCode() {
-      return Objects.hash(appName, locale);
+      return Objects.hash(paymentSystemId, locale);
     }
 
     public static final class Builder {
 
-      private @Nullable String appName;
+      private @Nullable String paymentSystemId;
 
       @CanIgnoreReturnValue
-      public @NonNull Builder setAppName(@Nullable String setterArg) {
-        this.appName = setterArg;
+      public @NonNull Builder setPaymentSystemId(@Nullable String setterArg) {
+        this.paymentSystemId = setterArg;
         return this;
       }
 
@@ -206,7 +206,7 @@ public class Api {
 
       public @NonNull HostInfo build() {
         HostInfo pigeonReturn = new HostInfo();
-        pigeonReturn.setAppName(appName);
+        pigeonReturn.setPaymentSystemId(paymentSystemId);
         pigeonReturn.setLocale(locale);
         return pigeonReturn;
       }
@@ -215,15 +215,15 @@ public class Api {
     @NonNull
     ArrayList<Object> toList() {
       ArrayList<Object> toListResult = new ArrayList<Object>(2);
-      toListResult.add(appName);
+      toListResult.add(paymentSystemId);
       toListResult.add(locale);
       return toListResult;
     }
 
     static @NonNull HostInfo fromList(@NonNull ArrayList<Object> __pigeon_list) {
       HostInfo pigeonResult = new HostInfo();
-      Object appName = __pigeon_list.get(0);
-      pigeonResult.setAppName((String) appName);
+      Object paymentSystemId = __pigeon_list.get(0);
+      pigeonResult.setPaymentSystemId((String) paymentSystemId);
       Object locale = __pigeon_list.get(1);
       pigeonResult.setLocale((String) locale);
       return pigeonResult;

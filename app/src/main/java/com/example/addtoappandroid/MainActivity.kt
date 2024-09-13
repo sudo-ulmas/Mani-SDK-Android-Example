@@ -1,8 +1,6 @@
 package com.example.addtoappandroid
 
-import android.app.Activity
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
@@ -16,16 +14,11 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.addtoappandroid.Api.VoidResult
 import com.example.addtoappandroid.ui.theme.AddToAppAndroidTheme
 import io.flutter.embedding.android.FlutterActivity
-import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.embedding.engine.FlutterEngineCache
-import io.flutter.embedding.engine.dart.DartExecutor
 
 
 class MainActivity : Api.HostAppApi, ComponentActivity() {
@@ -48,7 +41,6 @@ class MainActivity : Api.HostAppApi, ComponentActivity() {
     }
 
     override fun cancel() {
-        Log.d("hello","wossap $this")
 //        moveTaskToBack(true)
 //        finish()
     }
@@ -73,7 +65,9 @@ fun Greeting(name: String, activity: ComponentActivity) {
             onClick = {
                 val hostInfo  = Api.HostInfo()
                 hostInfo.locale = "ru"
-                Api.ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(hostInfo, object : VoidResult {
+                hostInfo.paymentSystemId = "put your payment system id here"
+                Api.ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(hostInfo, object : Api.VoidResult
+                     {
                     override fun success() {
                     }
 

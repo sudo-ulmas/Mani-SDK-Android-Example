@@ -18,7 +18,6 @@ class MyApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Log.d("nma gap", "eeey")
         // This application reuses a single FlutterEngine instance throughout.
         // Create the FlutterEngine on application start.
         flutterEngine = FlutterEngine(this).apply{

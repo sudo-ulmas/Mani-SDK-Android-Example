@@ -4,17 +4,7 @@ package com.example.addtoappandroid
 // found in the LICENSE file.
 
 
-import android.app.Activity
-import android.content.Context
-import android.content.Intent
-import android.util.Log
-import com.example.addtoappandroid.Api.HostAppApi
-import com.example.addtoappandroid.Api.VoidResult
-import com.example.addtoappandroid.MyApplication.Companion.ENGINE_ID
 import io.flutter.embedding.android.FlutterActivity
-import io.flutter.embedding.engine.FlutterEngine
-import java.lang.IllegalArgumentException
-import java.util.HashMap
 
 /**
  * This {@link FlutterActivity} class repackages Kotlin-Dart interop using the Pigeon IPC mechanism.
@@ -22,15 +12,16 @@ import java.util.HashMap
  * arguments in and out of the activity using 'startActivityForResult' intents and
  * 'onActivityResult' intents.
  */
- class HostBookApiHandler: Api.HostAppApi {
-    override fun cancel() {
-        TODO("Not yet implemented")
-    }
-
-    override fun finishAuthWithToken(token: Api.Token) {
-        TODO("Not yet implemented")
-    }
-}
+// class HostBookApiHandler: Api.HostAppApi {
+//    override fun cancel() {
+//        TODO("Not yet implemented")
+//    }
+//
+//    override fun authSuccess(token: Api.Token) {
+//        TODO("Not yet implemented")
+//    }
+//
+//}
 
 class FlutterAddActivity: FlutterActivity() {
 
