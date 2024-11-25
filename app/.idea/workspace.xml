@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de851c6d-18b0-4215-bcf2-d85bec888f47" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/other.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/addtoappandroid/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/addtoappandroid/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.aar.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/1.0/flutter_debug-1.0.module.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_debug/maven-metadata.xml.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.aar.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/1.0/flutter_profile-1.0.module.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_profile/maven-metadata.xml.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.aar.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/1.0/flutter_release-1.0.module.sha512" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.sha256" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.sha256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.sha512" beforeDir="false" afterPath="$PROJECT_DIR$/../libs/com/example/mani_auth/flutter_release/maven-metadata.xml.sha512" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2nsTp09zYA42MhRCwxBj5cWA7jq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/abdullah/AndroidStudioProjects/AddToAppAndroid/app/build.gradle.kts",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de851c6d-18b0-4215-bcf2-d85bec888f47" name="Changes" comment="" />
+      <created>1729760962678</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729760962678</updated>
+    </task>
+    <servers />
+  </component>
+</project>

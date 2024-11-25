@@ -1,6 +1,7 @@
 package com.example.addtoappandroid
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Box
@@ -43,10 +44,11 @@ class MainActivity : Api.HostAppApi, ComponentActivity() {
     override fun cancel() {
 //        moveTaskToBack(true)
 //        finish()
+        Log.d("hi", "bye")
     }
 
     override fun authSuccess(token: Api.Token) {
-        TODO("Not yet implemented")
+        Log.d("token",  token.accessToken.toString())
     }
 
 
@@ -65,13 +67,16 @@ fun Greeting(name: String, activity: ComponentActivity) {
             onClick = {
                 val hostInfo  = Api.HostInfo()
                 hostInfo.locale = "ru"
-                hostInfo.paymentSystemId = "put your payment system id here"
+                hostInfo.paymentSystemId = "your payment system id for prod or dev"
+                hostInfo.environment = Api.Environment.PROD
                 Api.ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(hostInfo, object : Api.VoidResult
                      {
                     override fun success() {
+                Log.d("succeess", "adsf")
                     }
 
                     override fun error(error: Throwable) {
+                        Log.d("hello", "mello")
                     }
 
                 })
