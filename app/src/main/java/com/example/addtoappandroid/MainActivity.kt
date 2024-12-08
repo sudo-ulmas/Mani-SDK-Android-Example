@@ -1,5 +1,9 @@
 package com.example.addtoappandroid
 
+import HostAppApi
+import HostInfo
+import ManiAuthApi
+import Token
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -22,12 +26,12 @@ import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngineCache
 
 
-class MainActivity : Api.HostAppApi, ComponentActivity() {
+class MainActivity : HostAppApi, ComponentActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Api.HostAppApi.setUp(FlutterEngineCache.getInstance().get(MyApplication.ENGINE_ID)!!.dartExecutor.binaryMessenger, this);
+        HostAppApi.setUp(FlutterEngineCache.getInstance().get(MyApplication.ENGINE_ID)!!.dartExecutor.binaryMessenger, this);
         setContent {
             AddToAppAndroidTheme {
                 // A surface container using the 'background' color from the theme
@@ -47,7 +51,7 @@ class MainActivity : Api.HostAppApi, ComponentActivity() {
         Log.d("hi", "bye")
     }
 
-    override fun authSuccess(token: Api.Token) {
+    override fun authSuccess(token: Token) {
         Log.d("token",  token.accessToken.toString())
     }
 
@@ -65,21 +69,20 @@ fun Greeting(name: String, activity: ComponentActivity) {
     ) {
         Button(
             onClick = {
-                val hostInfo  = Api.HostInfo()
-                hostInfo.locale = "ru"
-                hostInfo.paymentSystemId = "your payment system id for prod or dev"
-                hostInfo.environment = Api.Environment.PROD
-                Api.ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(hostInfo, object : Api.VoidResult
-                     {
-                    override fun success() {
-                Log.d("succeess", "adsf")
+                val hostInfo  = HostInfo(
+                    paymentSystemId = "your payment system id",
+                    locale = "uz",
+                    environment = ManiEnvironment.PROD,
+                    pinfl = "pinfl",
+                    residentType = ManiResidentType.RESIDENT
+                )
+                ManiAuthApi(FlutterEngineCache.getInstance().get("book_engine")!!.dartExecutor).send(hostInfo) { result ->
+                    result.onSuccess {
+                        Log.d("success", "Operation succeeded")
+                    }.onFailure { error ->
+                        Log.d("error", "Operation failed: ${error.message}")
                     }
-
-                    override fun error(error: Throwable) {
-                        Log.d("hello", "mello")
-                    }
-
-                })
+                }
                 activity.startActivity(
                     FlutterActivity
                         .withCachedEngine(MyApplication.ENGINE_ID)
