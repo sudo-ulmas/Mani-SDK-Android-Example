@@ -4,6 +4,7 @@ import HostAppApi
 import HostInfo
 import ManiAuthApi
 import Token
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -24,13 +25,20 @@ import androidx.compose.ui.unit.sp
 import com.example.addtoappandroid.ui.theme.AddToAppAndroidTheme
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngineCache
+import uz.myid.android.sdk.capture.MyIdClient
+import uz.myid.android.sdk.capture.MyIdConfig
+import uz.myid.android.sdk.capture.MyIdException
+import uz.myid.android.sdk.capture.MyIdResult
+import uz.myid.android.sdk.capture.MyIdResultListener
+import uz.myid.android.sdk.capture.model.MyIdBuildMode
 
 
-class MainActivity : HostAppApi, ComponentActivity() {
+class MainActivity : HostAppApi, ComponentActivity(), MyIdResultListener {
 
-
+    private val client = MyIdClient()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        startMyId()
         HostAppApi.setUp(FlutterEngineCache.getInstance().get(MyApplication.ENGINE_ID)!!.dartExecutor.binaryMessenger, this);
         setContent {
             AddToAppAndroidTheme {
@@ -45,6 +53,26 @@ class MainActivity : HostAppApi, ComponentActivity() {
         }
     }
 
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        client.handleActivityResult(resultCode, this)
+    }
+
+    private fun startMyId() {
+        val config = MyIdConfig.builder(clientId = "")
+            .withClientHash("", "")
+            .withPassportData("")
+            .withBirthDate("")
+            .withBuildMode(MyIdBuildMode.PRODUCTION)
+            .build()
+
+        /*
+           Start the flow. 1 should be your request code (customize as needed).
+           Must be an Activity or Fragment (support library).
+           This request code will be important for you on onActivityResult() to identify the MyIdResultListener.
+        */
+    }
+
     override fun cancel() {
 //        moveTaskToBack(true)
 //        finish()
@@ -53,6 +81,18 @@ class MainActivity : HostAppApi, ComponentActivity() {
 
     override fun authSuccess(token: Token) {
         Log.d("token",  token.accessToken.toString())
+    }
+
+    override fun onError(exception: MyIdException) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onSuccess(result: MyIdResult) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onUserExited() {
+        TODO("Not yet implemented")
     }
 
 
