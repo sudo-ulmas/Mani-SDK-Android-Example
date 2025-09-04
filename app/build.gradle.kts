@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.plugin.compose")
 }
 
 android {
@@ -22,7 +23,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -41,9 +42,6 @@ android {
     }
     buildFeatures {
         compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
     }
     packaging {
         resources {
@@ -72,7 +70,7 @@ dependencies {
     debugImplementation("com.example.mani_auth:flutter_debug:1.0")
     releaseImplementation("com.example.mani_auth:flutter_release:1.0")
     add("profileImplementation", "com.example.mani_auth:flutter_profile:1.0")
-    implementation("uz.myid.sdk.capture:myid-capture-sdk:2.3.0")
+    implementation("uz.myid.sdk.capture:myid-capture-sdk:2.4.4")
 }
 configurations {
     getByName("profileImplementation") {

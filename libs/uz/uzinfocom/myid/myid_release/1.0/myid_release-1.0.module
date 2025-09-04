@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5"
+      "version": "8.12"
     }
   },
   "variants": [
@@ -27,14 +27,14 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.8.22"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -42,11 +42,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 20913,
-          "sha512": "b4dd7ef87faa5a862ee1871381ccdcb3650fbaaf8c05f8feab7b8d873f49e17b57b63ff3f62f063af537a3695d424f9a0afacfd0daf6911940cdb2c3c7fe70cb",
-          "sha256": "8a8fd3e3a0f45db4dc5a828d9849c279ea8c66ae998d1a687acd6e91156edc33",
-          "sha1": "6721e5bd987a4398edda287ac1397f4fdb8e75d1",
-          "md5": "f08f43aec9eff2ac28f647cb5518f11f"
+          "size": 16420,
+          "sha512": "789685e209ae39dc1f9f856aee63a31a8ada5b19eac72b910270536ce90c7faed710c1ebbb318284adbf2abac208574a153b498379469a45f8bb9b80540aacc0",
+          "sha256": "873a5465bfb23add4ce7233a7c0f2391b76c85149a462f2055e609bf3670d24e",
+          "sha1": "d949454e1793e003fbdebd57f9e30d9c4efdd01b",
+          "md5": "23ae746b4033dbf82be146663ab9e000"
         }
       ]
     },
@@ -63,21 +63,21 @@
           "group": "io.flutter",
           "module": "flutter_embedding_release",
           "version": {
-            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+            "requires": "1.0.0-1e9a811bf8e70466596bcf0ea3a8b5adb5f17f7f"
           }
         },
         {
           "group": "uz.myid.sdk.capture",
           "module": "myid-capture-sdk",
           "version": {
-            "requires": "2.3.7"
+            "requires": "2.4.4"
           }
         },
         {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib",
           "version": {
-            "requires": "1.8.22"
+            "requires": "2.1.0"
           }
         }
       ],
@@ -85,11 +85,11 @@
         {
           "name": "myid_release-1.0.aar",
           "url": "myid_release-1.0.aar",
-          "size": 20913,
-          "sha512": "b4dd7ef87faa5a862ee1871381ccdcb3650fbaaf8c05f8feab7b8d873f49e17b57b63ff3f62f063af537a3695d424f9a0afacfd0daf6911940cdb2c3c7fe70cb",
-          "sha256": "8a8fd3e3a0f45db4dc5a828d9849c279ea8c66ae998d1a687acd6e91156edc33",
-          "sha1": "6721e5bd987a4398edda287ac1397f4fdb8e75d1",
-          "md5": "f08f43aec9eff2ac28f647cb5518f11f"
+          "size": 16420,
+          "sha512": "789685e209ae39dc1f9f856aee63a31a8ada5b19eac72b910270536ce90c7faed710c1ebbb318284adbf2abac208574a153b498379469a45f8bb9b80540aacc0",
+          "sha256": "873a5465bfb23add4ce7233a7c0f2391b76c85149a462f2055e609bf3670d24e",
+          "sha1": "d949454e1793e003fbdebd57f9e30d9c4efdd01b",
+          "md5": "23ae746b4033dbf82be146663ab9e000"
         }
       ]
     },
@@ -105,11 +105,11 @@
         {
           "name": "myid_release-1.0-sources.jar",
           "url": "myid_release-1.0-sources.jar",
-          "size": 5237,
-          "sha512": "70cfaf296cfdd4489500d76ef57c5eda194784109002d9c954b181cb688b0e1c2da606c8f3556dfad7fd4fef2576ded58fec4ec49b16ba4db679e68f1b903e1d",
-          "sha256": "acfe2f2305ff602521ea34beffa43bc8735f42e86ef1e75385760ac566270f50",
-          "sha1": "c81423e6aae9b1ab08d6a43573c020e81d1a7fac",
-          "md5": "b77667a4e48e1167a509744438bbd475"
+          "size": 4922,
+          "sha512": "f18705ed4ae1fc7d3fa8e00adc5af3f26a5898398d6d34f4f2a9529a7681fb73c9b7284acd5de6e762c92bb067dfca773007b1157ee469dcc7114e153b5fb962",
+          "sha256": "8a56adebd97250d35477b33b5e82c794faabfdc04873c74efc38e7bbeb8439a7",
+          "sha1": "dbf89de8c1915656051966ded3515dc54bf00ad6",
+          "md5": "f07251c88ac7eb1b0c25cfa032990e81"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "myid_release-1.0-javadoc.jar",
           "url": "myid_release-1.0-javadoc.jar",
-          "size": 285781,
-          "sha512": "2059bb5ca21d0de30b597ea3938d1fba67a67cfe8abdca004183dc572a205162a3cc53aa15c53ebb96e980485dad4e46c296c8bb499e8736c57a1cdeb83f6c15",
-          "sha256": "4992e53c45b13af49417c2a325234478adcf956193f35df91ac81703f0b2db8c",
-          "sha1": "8ee85756a7f423c78381d2693b59fbf6f6e3edd1",
-          "md5": "c54fc4068a1d6166cae61db39ada2ba2"
+          "size": 277147,
+          "sha512": "2c6dba2869bfbacec20a47555ef06d8322a7481b86312be75a4ff9461a151a3ccd66767e6ab42be479d5dc6b0d4b89a09443f9f27d9671ec8f1f8ee81b57ed3c",
+          "sha256": "484316d0976d0956ec9685c5fa3fbb940214c306e7971381a4c85addfa2dddb4",
+          "sha1": "876b6a92fe4b35e27b41d8646aed05191f1f21de",
+          "md5": "d2cf2d5494e263d9bde784f2dea9484a"
         }
       ]
     }
