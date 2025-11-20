@@ -69,7 +69,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("com.example.mani_auth:flutter_debug:1.0")
     releaseImplementation("com.example.mani_auth:flutter_release:1.0")
-//    add("profileImplementation", "com.example.mani_auth:flutter_profile:1.0")
+    add("profileImplementation", "com.example.mani_auth:flutter_profile:1.0")
 //    implementation("uz.myid.sdk.capture:myid-capture-sdk:3.1.1")
 }
 configurations {
