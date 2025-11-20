@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.addtoappandroid"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.addtoappandroid"
@@ -23,7 +23,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -69,8 +69,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     debugImplementation("com.example.mani_auth:flutter_debug:1.0")
     releaseImplementation("com.example.mani_auth:flutter_release:1.0")
-    add("profileImplementation", "com.example.mani_auth:flutter_profile:1.0")
-    implementation("uz.myid.sdk.capture:myid-capture-sdk:2.4.4")
+//    add("profileImplementation", "com.example.mani_auth:flutter_profile:1.0")
+//    implementation("uz.myid.sdk.capture:myid-capture-sdk:3.1.1")
 }
 configurations {
     getByName("profileImplementation") {

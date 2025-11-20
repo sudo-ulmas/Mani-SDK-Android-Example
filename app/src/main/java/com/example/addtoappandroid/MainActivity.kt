@@ -120,7 +120,7 @@ fun Greeting(name: String, activity: ComponentActivity) {
                     pinfl = "31308977420022",
                     phoneNumber = "917940244",
                     residentType = RESIDENT,
-                    designVariant = DesignVariant.SMARTBANK,
+                    designVariant = DesignVariant.MANI,
                 )
                 HostAppApi.setUp(FlutterEngineCache.getInstance().get(freshEngineId)!!.dartExecutor.binaryMessenger, object: HostAppApi {
                     override fun cancel() {
