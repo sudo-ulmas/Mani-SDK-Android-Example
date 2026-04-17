@@ -1,4 +1,4 @@
-package com.example.addtoappandroid.ui.theme
+package sdk.pully.uz.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

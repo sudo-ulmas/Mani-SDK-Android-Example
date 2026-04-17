@@ -1,4 +1,4 @@
-package com.example.addtoappandroid.ui.theme
+package sdk.pully.uz.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

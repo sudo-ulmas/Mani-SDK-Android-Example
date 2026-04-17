@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.addtoappandroid"
+    namespace = "sdk.pully.uz"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.addtoappandroid"
-        minSdk = 24
+        applicationId = "sdk.pully.uz"
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -37,8 +37,11 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
+    // Add this
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8)
+        }
     }
     buildFeatures {
         compose = true
@@ -70,7 +73,10 @@ dependencies {
     debugImplementation("com.example.mani_auth:flutter_debug:1.0")
     releaseImplementation("com.example.mani_auth:flutter_release:1.0")
     add("profileImplementation", "com.example.mani_auth:flutter_profile:1.0")
-//    implementation("uz.myid.sdk.capture:myid-capture-sdk:3.1.1")
+    implementation("androidx.credentials:credentials:1.3.0")
+    implementation("androidx.credentials:credentials-play-services-auth:1.3.0")
+    implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
+//    implementation("uz.myid.sdk.capture:myid-capture-sdk:3.1.3")
 }
 configurations {
     getByName("profileImplementation") {

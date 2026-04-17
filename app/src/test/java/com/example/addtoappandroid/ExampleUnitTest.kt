@@ -1,4 +1,4 @@
-package com.example.addtoappandroid
+package sdk.pully.uz
 
 import org.junit.Test
 
